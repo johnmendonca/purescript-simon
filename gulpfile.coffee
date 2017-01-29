@@ -8,7 +8,7 @@ bower_files = require 'main-bower-files'
 src   = './src/'
 build = './build/'
 
-html_src = "#{src}*.html"
+html_src = "#{src}**/*.html"
 sass_src = "#{src}sass/**/*.scss"
 asset_src = "#{src}assets/**/*"
 
