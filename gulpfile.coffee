@@ -33,7 +33,7 @@ gulp.task 'vendor_js', ->
 
 gulp.task 'assets', ->
   gulp.src asset_src
-    .pipe gulp.dest("#{build}assets")
+    .pipe gulp.dest("#{build}")
     .pipe connect.reload()
 
 gulp.task 'sass', ->
