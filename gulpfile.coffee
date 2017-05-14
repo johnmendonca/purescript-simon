@@ -60,10 +60,10 @@ gulp.task 'html', ->
     .pipe connect.reload()
 
 gulp.task 'psc', ->
-  purescript.psc(src: purs_src)
+  purescript.compile(src: purs_src)
 
 gulp.task 'psc-bundle', ['psc'], ->
-  purescript.pscBundle(
+  purescript.bundle(
     src: "./output/**/*.js",
     output: "#{build}js/main.js",
     module: "Main",
