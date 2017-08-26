@@ -78,7 +78,7 @@ gulp.task 'browserify', ['psc-bundle'], ->
     .pipe connect.reload()
 
 gulp.task 'psci', (f) ->
-  process.spawn('psci', purs_src, stdio: 'inherit')
+  process.spawn('purs', ["repl"].concat(purs_src), stdio: 'inherit')
     .on('close', f)
 
 gulp.task 'dotpsci', ->
