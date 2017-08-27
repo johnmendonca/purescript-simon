@@ -8,6 +8,8 @@ import Data.Unfoldable (replicateA)
 
 data Color = Red | Blue | Green | Yellow
 
+derive instance eqColor :: Eq Color
+
 instance showColor :: Show Color where
   show Red    = "Red"
   show Blue   = "Blue"
