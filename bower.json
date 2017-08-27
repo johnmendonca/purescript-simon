@@ -18,11 +18,16 @@
     "html5shiv": "^3.7.3",
     "respond": "^1.4.2",
     "normalize-scss": "^3.0.3",
-    "purescript-console": "^3.0.0"
+    "purescript-console": "^3.0.0",
+    "purescript-random": "^3.0.0",
+    "purescript-unfoldable": "^3.0.0",
+    "purescript-smolder": "^10.1.0",
+    "purescript-dom": "^4.8.1",
+    "purescript-smolder-dom": "^2.0.0",
+    "purescript-foldable-traversable": "^3.6.0",
+    "purescript-pux": "^11.0.0"
   },
   "devDependencies": {
-    "purescript-psci-support": "^3.0.0",
-    "purescript-random": "^3.0.0",
-    "purescript-unfoldable": "^3.0.0"
+    "purescript-psci-support": "^3.0.0"
   }
 }
